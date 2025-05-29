@@ -1,28 +1,42 @@
-# secret-number-game
-um jogo para adivinhar um número secreto.
+# Secret Number Challenge
 
-# javascript
+Um projeto desenvolvido para praticar conceitos fundamentais de JavaScript, HTML e CSS, a partir do curso "Lógica de Programação: Explore Funções e Listas". O objetivo do jogo é adivinhar um número secreto gerado aleatoriamente, promovendo a fixação de lógica, manipulação de DOM e boas práticas de programação.
 
-Curso de javascript: Lógica de programação explore funções e listas
+## Funcionalidades
 
-# O que foi praticado:
+- Interface web simples e intuitiva.
+- Geração de número secreto aleatório dentro de um intervalo definido.
+- Validação do palpite do usuário com feedback dinâmico.
+- Contador de tentativas.
+- Refatoração de funções para maior eficiência e legibilidade.
 
-Carregar o projeto com o HTML e o CSS para criar a estrutura e o estilo da página;
+## Tecnologias Utilizadas
 
-Aprender a manipular o conteúdo dos elementos HTML, como o H1 e o parágrafo (p), utilizando JavaScript para alterar dinamicamente o texto exibido na página;
+- **HTML5**: Estrutura da página.
+- **CSS3**: Estilização da interface.
+- **JavaScript**: Lógica do jogo e manipulação do DOM.
 
-Entender a importância da interação entre o HTML e o JavaScript para criar páginas web dinâmicas e interativas.
+## Como Executar
 
-Criei uma função em JavaScript que recebe 2 parâmetros para gerar um número aleatório e entendemos como usar a estrutura de uma função para encapsular um trecho de código reutilizável;
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/Leal86/secret-number-challenge.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd secret-number-challenge
+   ```
+3. Abra o arquivo `index.html` em seu navegador preferido.
 
-Utilizei a palavra-chave "return" dentro da função para retornar o valor do número aleatório gerado e criei outra função chamada cliqueSeuNome que não possui retorno nem parâmetros;
+## Aprendizados
 
-Compreendi a diferença entre funções com retorno e funções sem retorno e aprendi como chamar e invocar a função para exibir uma mensagem inicial na tela;
+- Manipulação de elementos HTML via JavaScript.
+- Criação e chamada de funções com e sem retorno.
+- Utilização de parâmetros e retorno para comunicação entre funções.
+- Estruturas condicionais para tomada de decisão.
+- Refatoração de código para maior robustez e clareza.
 
-Vi como os parâmetros e retornos são importantes para a comunicação entre funções e o restante do programa.
+## Créditos
 
-Aprendi como criar um programa para verificar se o “chute” inserido é igual ao número secreto definido. Utilizei estruturas condicionais para tomar decisões com base no resultado dessa comparação;
+Projeto desenvolvido como exercício prático do curso de JavaScript.
 
-Criei uma variável para armazenar a quantidade de tentativas realizadas pelo usuário;
-
-Aprendi a melhorar o código existente, tornando-o mais eficiente e legível. Neste caso, refatorar a função que realiza o sorteio do número secreto, tornando-a mais robusta e garantindo que o número sorteado não seja repetido;
